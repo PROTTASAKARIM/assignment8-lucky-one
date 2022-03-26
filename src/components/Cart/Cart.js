@@ -3,9 +3,10 @@ import './Cart.css'
 
 const Cart = (props) => {
     // console.log(props);
+    const { name } = props.cart;
     return (
         <div>
-            <p>Book Name : {props.cart.name}</p>
+            <p>Book Name : {name}</p>
         </div>
     );
 };

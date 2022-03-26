@@ -62,13 +62,11 @@ const Shop = () => {
                     carts.map(cart => <Cart key={cart.id} cart={cart}></Cart>)
                 }
 
-                <button onClick={() => { randomItemSelect(carts) }}>Choose One For Me</button>
+                <button className='buttonDesign' onClick={() => { randomItemSelect(carts) }}>Choose One For Me</button>
                 <br />
-                <button onClick={() => { clearCart() }}>Choose Again</button>
+                <button className='buttonDesign' onClick={() => { clearCart() }}>Choose Again</button>
                 <ShowRandom random={random}></ShowRandom>
-                {/* {
-                    random.map(rand => <ShowRandom random={random}></ShowRandom>)
-                } */}
+
             </div>
 
         </div>
