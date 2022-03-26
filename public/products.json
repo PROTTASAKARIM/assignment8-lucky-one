@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "name": "Philosopher's Stone",
+        "price": "500",
+        "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.goodreads.com%2Fbook%2Fshow%2F3.Harry_Potter_and_the_Sorcerer_s_Stone&psig=AOvVaw2qtWN5fXCmEp5F3tRSfpi1&ust=1648373197679000&source=images&cd=vfe&ved=0CAgQjRxqFwoTCKDP6tW74_YCFQAAAAAdAAAAABAD"
+    },
+    {
+        "id": 2,
+        "name": "Chamber of Secrets",
+        "price": "620",
+        "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F290763719667816923%2F&psig=AOvVaw0jkHfHFcCiI6JeQf57-vaK&ust=1648373584735000&source=images&cd=vfe&ved=0CAgQjRxqFwoTCMjPsP674_YCFQAAAAAdAAAAABAI"
+    },
+    {
+        "id": 3,
+        "name": "Prisoner of Azkaban",
+        "price": "368",
+        "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.goodreads.com%2Fbook%2Fshow%2F5.Harry_Potter_and_the_Prisoner_of_Azkaban&psig=AOvVaw00UOo6WUwxK_RiNyA2haGL&ust=1648373400144000&source=images&cd=vfe&ved=0CAgQjRxqFwoTCLjc86a74_YCFQAAAAAdAAAAABAD"
+    }
+]
