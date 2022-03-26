@@ -1,11 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import Cart from '../Cart/Cart';
 import Product from '../Product/Product';
+import ShowRandom from '../ShowRandom/ShowRandom';
 import './Shop.css';
 
 const Shop = () => {
     const [products, setProducts] = useState([]);
     const [carts, setCart] = useState([]);
+    const [random, setRandom] = useState([]);
 
     useEffect(() => {
         fetch('products.json')
@@ -20,6 +22,17 @@ const Shop = () => {
         newCart = [...carts, selectedProduct];
         console.log(newCart)
         setCart(newCart);
+
+    }
+    const randomItemSelect = (carts) => {
+        console.log(carts);
+        const emptyArray = [];
+        carts.map(cart => emptyArray.push(cart.name))
+        console.log(emptyArray);
+        const randomItem = emptyArray[Math.floor(Math.random() * emptyArray.length)];
+        console.log(randomItem);
+        setRandom(randomItem);
+
     }
 
     return (
@@ -34,9 +47,14 @@ const Shop = () => {
                 {
                     carts.map(cart => <Cart key={cart.id} cart={cart}></Cart>)
                 }
-                <button>Choose One For Me</button>
+
+                <button onClick={() => { randomItemSelect(carts) }}>Choose One For Me</button>
                 <br />
                 <button>Choose Again</button>
+                <ShowRandom random={random}></ShowRandom>
+                {/* {
+                    random.map(rand => <ShowRandom random={random}></ShowRandom>)
+                } */}
             </div>
 
         </div>
