@@ -1,20 +1,74 @@
 [
-    {
-        "id": 1,
-        "name": "Philosopher's Stone",
-        "price": "500",
-        "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.goodreads.com%2Fbook%2Fshow%2F3.Harry_Potter_and_the_Sorcerer_s_Stone&psig=AOvVaw2qtWN5fXCmEp5F3tRSfpi1&ust=1648373197679000&source=images&cd=vfe&ved=0CAgQjRxqFwoTCKDP6tW74_YCFQAAAAAdAAAAABAD"
-    },
-    {
-        "id": 2,
-        "name": "Chamber of Secrets",
-        "price": "620",
-        "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F290763719667816923%2F&psig=AOvVaw0jkHfHFcCiI6JeQf57-vaK&ust=1648373584735000&source=images&cd=vfe&ved=0CAgQjRxqFwoTCMjPsP674_YCFQAAAAAdAAAAABAI"
-    },
-    {
-        "id": 3,
-        "name": "Prisoner of Azkaban",
-        "price": "368",
-        "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.goodreads.com%2Fbook%2Fshow%2F5.Harry_Potter_and_the_Prisoner_of_Azkaban&psig=AOvVaw00UOo6WUwxK_RiNyA2haGL&ust=1648373400144000&source=images&cd=vfe&ved=0CAgQjRxqFwoTCLjc86a74_YCFQAAAAAdAAAAABAD"
-    }
+  {
+    "id": "623eeaee3e139491c297334b",
+    "price": "1,953.77",
+    "img": "./images/3._SY475_.jpg",
+    "name": "Philosopher's Stone"
+  },
+  {
+    "id": "623eeaee8194ce82369ee8bb",
+    "price": "2,736.72",
+    "img": "./images/a7658f0978072c2f0e0e408789bf3349.jpg",
+    "name": "Chamber of Secrets"
+  },
+  {
+    "id": "623eeaeeec3bccdee9f4d0ad",
+    "price": "3,555.92",
+    "img": "./images/5._SY475_.jpg",
+    "name": "Prisoner of Azkaban"
+  },
+  {
+    "id": "623eeaee441de37017bed7d4",
+    "price": "2,626.20",
+    "img": "./images/71ykU-RQ0nL._AC_SL1000.jpg",
+    "name": "Goblet of Fire "
+  },
+  {
+    "id": "623eeaee28bc6148dc80b7e3",
+    "price": "2,006.03",
+    "img": "./images/91t5-Juqt9L.jpg",
+    "name": "Order of the Phoenix"
+  },
+  {
+    "id": "623eeaee56a6799728021907",
+    "price": "2,387.31",
+    "img": "./images/61sXBXmAWML.jpg",
+    "name": "Half-Blood Prince"
+  },
+  {
+    "id": "623eeaeebb6c93556110f268",
+    "price": "1,224.24",
+    "img": "./images/71sH3vxziLL.jpg",
+    "name": "Deathly Hallows"
+  },
+  {
+    "id": "623eeaeec44e840c42b666d4",
+    "price": "2,040.29",
+    "img": "./images/710+HcoP38L.jpg",
+    "name": "The Hobbit"
+  },
+  {
+    "id": "623eeaee22af2cdefa76ede0",
+    "price": "1,090.16",
+    "img": "./images/41gHG-a2OEL._SX331_BO1,204,203,200_.jpg",
+    "name": "The Fellowship of the Ring"
+  },
+  {
+    "id": "623eeaeefdab8740012f0560",
+    "price": "3,280.79",
+    "img": "./images/4123zOAwAgL.jpg",
+    "name": "The Two Towers"
+  },
+  {
+    "id": "623eeaee4eec6cdb5a26f691",
+    "price": "2,394.97",
+    "img": "./images/x293.jpg",
+    "name": "The Return of the King"
+  },
+  {
+    "id": "623eeaee8a52338e2d685b9d",
+    "price": "1,239.18",
+    "img": "./images/81vx-Br7niL.jpg",
+    "name": "The Silmarillion"
+  }
 ]
