@@ -19,18 +19,27 @@ const Shop = () => {
     const handleAddToCart = (selectedProduct) => {
         // console.log(selectedProduct)
         let newCart = [];
-        newCart = [...carts, selectedProduct];
+        // newCart = [...carts, selectedProduct];
+
+        const exists = carts.find(product => product.id === selectedProduct.id);
+        if (!exists) {
+            newCart = [...carts, selectedProduct];
+        }
+        else {
+            const rest = carts.filter(product => product.id !== selectedProduct.id);
+            newCart = [...rest, exists];
+        }
         console.log(newCart)
         setCart(newCart);
 
     }
     const randomItemSelect = (carts) => {
-        console.log(carts);
+        // console.log(carts);
         const emptyArray = [];
         carts.map(cart => emptyArray.push(cart.name))
-        console.log(emptyArray);
+        // console.log(emptyArray);
         const randomItem = emptyArray[Math.floor(Math.random() * emptyArray.length)];
-        console.log(randomItem);
+        // console.log(randomItem);
         setRandom(randomItem);
 
     }
