@@ -18,7 +18,7 @@ const Shop = () => {
         // console.log(selectedProduct)
         let newCart = [];
         newCart = [...carts, selectedProduct];
-        // console.log(newCart)
+        console.log(newCart)
         setCart(newCart);
     }
 
@@ -30,10 +30,15 @@ const Shop = () => {
                 }
             </div>
             <div className="cart-container">
+                <h2>Selected Books</h2>
                 {
                     carts.map(cart => <Cart key={cart.id} cart={cart}></Cart>)
                 }
+                <button>Choose One For Me</button>
+                <br />
+                <button>Choose Again</button>
             </div>
+
         </div>
     );
 };
