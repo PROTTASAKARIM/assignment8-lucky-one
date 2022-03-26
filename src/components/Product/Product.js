@@ -12,8 +12,8 @@ const Product = (props) => {
         <div className='product'>
             <img src={img} alt=""></img>
             <div className='product-info'>
-                <p className='product-name'>Book Name:{name}</p>
-                <p>Price: ${price}</p>
+                <p className='product-name'>Book Name : {name}</p>
+                <p>Price : ${price}</p>
             </div>
             <button onClick={() => handleAddToCart(props.product)}
                 className='btn-cart'>
